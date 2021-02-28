@@ -1,0 +1,23 @@
+{
+  "name": "spa-vanilla",
+  "version": "1.0.0",
+  "description": "single page application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "Andrés Menchaca @valinorDev",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "babel-loader": "^8.2.2"
+  },
+  "devDependencies": {
+    "html-loader": "^2.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
